@@ -1,26 +1,57 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "RM Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
 }
+
+.subway-sign {
+  background-color: #000000;
+  color: #ffffff;
+  border-top: 8px solid #ffffff;
+  padding: 1.5rem;
+  font-family: "RM Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Subway Lines Colors */
+.subway-line-a { border-top-color: #0039A6; }
+.subway-line-c { border-top-color: #0039A6; }
+.subway-line-e { border-top-color: #0039A6; }
+.subway-line-b { border-top-color: #FF6319; }
+.subway-line-d { border-top-color: #FF6319; }
+.subway-line-f { border-top-color: #FF6319; }
+.subway-line-m { border-top-color: #FF6319; }
+.subway-line-g { border-top-color: #6CBE45; }
+.subway-line-j { border-top-color: #996633; }
+.subway-line-z { border-top-color: #996633; }
+.subway-line-l { border-top-color: #A7A9AC; }
+.subway-line-n { border-top-color: #FCCC0A; }
+.subway-line-q { border-top-color: #FCCC0A; }
+.subway-line-r { border-top-color: #FCCC0A; }
+.subway-line-w { border-top-color: #FCCC0A; }
+.subway-line-s { border-top-color: #808183; }
+.subway-line-1 { border-top-color: #EE352E; }
+.subway-line-2 { border-top-color: #EE352E; }
+.subway-line-3 { border-top-color: #EE352E; }
+.subway-line-4 { border-top-color: #00933C; }
+.subway-line-5 { border-top-color: #00933C; }
+.subway-line-6 { border-top-color: #00933C; }
+.subway-line-7 { border-top-color: #B933AD; }

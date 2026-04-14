@@ -1,0 +1,9 @@
+{
+  "/auth/callback/route": "app/auth/callback/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/log/page": "app/log/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/page": "app/page.js",
+  "/login/page": "app/login/page.js"
+}
