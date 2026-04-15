@@ -89,7 +89,7 @@ function LoginForm() {
         }
 
         if (data.session) {
-          router.push("/dashboard");
+          router.push("/");
         }
       } else {
         const { data, error: authError } = await supabase.auth.signUp({
@@ -110,7 +110,7 @@ function LoginForm() {
         }
 
         if (data.session) {
-          router.push("/dashboard");
+          router.push("/");
         } else {
           setMessage(
             "Account created! A verification link has been sent to " +

@@ -126,7 +126,7 @@ export default function LogPage() {
       // if (file) await supabase.storage.from('photos').upload(`${userId}/${Date.now()}_${file.name}`, file);
 
       alert("Log Entry Submitted successfully!");
-      router.push("/dashboard");
+      router.push("/");
     } catch (err: unknown) {
       console.error(err);
       const message = err instanceof Error ? err.message : String(err);
